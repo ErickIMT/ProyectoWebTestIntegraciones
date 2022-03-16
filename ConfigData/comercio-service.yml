@@ -1,0 +1,19 @@
+#APPLICATION CONFIGURATION
+server:
+  port: 8221
+      
+#CONFIGURACION DB 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/comerciosdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Alignet2021.
+    
+    
+#CONFIGURACION JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    
