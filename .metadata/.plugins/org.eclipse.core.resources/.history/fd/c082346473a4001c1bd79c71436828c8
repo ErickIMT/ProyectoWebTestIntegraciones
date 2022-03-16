@@ -1,0 +1,5 @@
+package com.payme.integration.entities;
+
+public class TipoIntegracion {
+
+}

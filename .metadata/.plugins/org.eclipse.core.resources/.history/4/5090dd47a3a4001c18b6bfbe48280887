@@ -1,0 +1,25 @@
+#APPLICATION CONFIGURATION
+server:
+  port: 8220
+
+#CONSOLA H2
+spring:
+  h2:
+    console:
+      enabled: true
+      
+#CONFIGURACION DB 
+  datasource:
+    url: jdbc:mysql://localhost:3306/ejercicios
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Alignet2021.
+    
+    
+#CONFIGURACION JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    

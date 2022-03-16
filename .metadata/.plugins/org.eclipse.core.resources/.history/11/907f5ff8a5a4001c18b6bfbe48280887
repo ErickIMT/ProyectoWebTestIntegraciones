@@ -1,0 +1,5 @@
+package com.payme.integration.service;
+
+public interface ComercioService {
+
+}

@@ -1,0 +1,29 @@
+package com.payme.integration.entities;
+
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Table(name = "comercio")
+public class Comercio {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer idComercio;
+	private String nombre;
+	private String signature;
+	@ManyToOne(fetch = FetchType.LAZY)
+	private TipoIntegracion tipoIntegracion;
+}

@@ -1,0 +1,14 @@
+package com.payme.integration.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+@Builder
+public class TipoIntegracion {
+
+	private Integer idTipoIntegracion;
+	private String nombre;
+}

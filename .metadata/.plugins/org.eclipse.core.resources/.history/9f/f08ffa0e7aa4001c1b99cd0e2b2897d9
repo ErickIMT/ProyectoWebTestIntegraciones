@@ -1,0 +1,18 @@
+package com.payme.integration;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.payme.integration.entities.Comercio;
+import com.payme.integration.repository.ComercioRepository;
+
+@DataJpaTest
+public class ComercioRepositoryTest {
+
+	@Autowired
+	private ComercioRepository repo;
+	
+	public void buscarPorTipoIntegracion_devolverListaComercios() {
+		Comercio comercio01 = 
+	}
+}

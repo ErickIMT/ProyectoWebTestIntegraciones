@@ -1,0 +1,7 @@
+package com.payme.integration.entities;
+
+public class TipoIntegracion {
+
+	private Integer idTipoIntegracion;
+	private String nombre;
+}

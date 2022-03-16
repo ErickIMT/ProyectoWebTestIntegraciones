@@ -1,0 +1,15 @@
+package com.payme.integration.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.payme.integration.service.ComercioServiceImpl;
+
+@RestController
+@RequestMapping(value = "comercio")
+public class ComercioController {
+
+	@Autowired
+	private ComercioServiceImpl serv;
+}

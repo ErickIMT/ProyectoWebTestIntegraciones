@@ -1,0 +1,6 @@
+package com.payme.integration.controller;
+
+@
+public class ComercioController {
+
+}

@@ -1,0 +1,27 @@
+package com.payme.integration.entities;
+
+import java.util.List;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+@Builder
+@Table(name = "TipoIntegracion")
+public class TipoIntegracion {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer idTipoIntegracion;
+	private String nombre;
+	@OneToMany
+	private List<Comercio> comercios;
+}

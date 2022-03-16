@@ -1,0 +1,5 @@
+package com.payme.integration.service;
+
+public class ComercioServiceImpl implements ComercioService{
+
+}

@@ -1,0 +1,6 @@
+INSERT INTO tipoIntegracion(nombre) VALUE('Checkout');
+INSERT INTO tipoIntegracion(nombre) VALUE('VPosFlex');
+
+INSERT INTO comercio(nombre, signature, id_tipo_integracion) VALUES("Prueba 1", "54181sdsad", 1);
+INSERT INTO comercio(nombre, signature, id_tipo_integracion) VALUES("Prueba 2", "54181sdsad", 2);
+INSERT INTO comercio(nombre, signature, id_tipo_integracion) VALUES("Prueba 3", "54181sdsad", 2);

@@ -1,0 +1,32 @@
+package com.payme.integration;
+
+import java.util.List;
+
+import org.assertj.core.api.Assertions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+
+import com.payme.integration.entities.Comercio;
+import com.payme.integration.entities.TipoIntegracion;
+import com.payme.integration.repository.ComercioRepository;
+
+@DataJpaTest
+public class ComercioRepositoryTest {
+
+	@Autowired
+	private ComercioRepository repo;
+	
+	public void buscarPorTipoIntegracion_devolverListaComercios() {
+		Comercio comercio01 = Comercio.builder()
+									.idComercio(4)
+									.nombre("Prueba 4")
+									.signature("allsd9**-+d2131242")
+									.tipoIntegracion(TipoIntegracion.builder().idTipoIntegracion(3).nombre("App").build()).build();
+		
+		repo.save(comercio01);
+		
+		List<Comercio> respuesta = repo.findByTipoIntegracion(comercio01.getTipoIntegracion());
+									
+		Assertions.assertThat(respuesta.size()).isEqualTo(1);
+	}
+}
