@@ -5540,3 +5540,63 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:32:39.974
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kNvnzLPr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:23.110
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:23.110
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@372b2573[org.springframework.tooling.boot.ls:1.30.0.202201310805(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:23.111
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.731
+!MESSAGE Boot LS startup time from start to initialized: 2619ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.825
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QIbzgPEGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.825
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.826
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.826
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.827
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.827
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QIbzgPEG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.833
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.839
+!MESSAGE buffering callback sts4.classpath.QIbzgPEG ConfigServer false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.839
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.846
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.852
+!MESSAGE buffering callback sts4.classpath.QIbzgPEG Comercios false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.853
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.861
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.869
+!MESSAGE buffering callback sts4.classpath.QIbzgPEG RegisterService false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:25.869
+!MESSAGE executing callback sts4.classpath.QIbzgPEG 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 11:51:26.295
+!MESSAGE executing callback sts4.classpath.QIbzgPEG SUCCESS [done]

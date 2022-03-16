@@ -6,6 +6,7 @@ spring:
     config:
       server:
         git:
+          default-label: master
           uri: https://github.com/ErickIMT/ProyectoWebTestIntegraciones.git
           searchPaths: ConfigData
           username: erickisrael203@gmail.com
