@@ -17,3 +17,8 @@ spring:
     hibernate:
       ddl-auto: create-drop
     
+#EUREKA CLIENT
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8030/eureka/
